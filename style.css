@@ -5,6 +5,7 @@
 body {
     background-color: white;
     text-align: center;
+    font-size: 2em;
 }
 
 nav {
@@ -14,16 +15,32 @@ nav {
 a {
     color: skyblue;
 }
+ul {
+    list-style: none;
+}
 
 .ProjectGroup {
     
 }
 
 .ProjectItem {
-    
+    border-top: 2px solid black;
 }
 
 .NavItem {
     text-decoration: none;
     color: black;
+}
+.Instructions {
+}
+.Col {
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+}
+#col-left {
+    text-align: right;
+}
+#col-right {
+    text-align: left;
 }
